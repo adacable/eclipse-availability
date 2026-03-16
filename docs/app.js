@@ -11,6 +11,8 @@ const map = L.map("map", {
   zoomControl: true,
 });
 
+L.control.scale({ imperial: false }).addTo(map);
+
 L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}", {
   attribution: '© <a href="https://www.esri.com/">Esri</a>',
   maxZoom: 19,
