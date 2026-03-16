@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026 Solar Eclipse — Spain</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="map"></div>
+
+  <div id="legend">
+    <h2>Solar Eclipse 2026</h2>
+    <p class="subtitle">August 12 · Spain · ~18:30 local</p>
+    <div class="legend-items">
+      <div class="legend-item">
+        <span class="swatch" id="swatch-umbra"></span> Path of totality
+      </div>
+      <div class="legend-item">
+        <span class="swatch" id="swatch-penumbra"></span> Partial eclipse visible
+      </div>
+      <div class="legend-item">
+        <span class="swatch" id="swatch-blocked"></span> Terrain blocks view
+      </div>
+    </div>
+    <p class="note">Terrain layer accounts for mountains obscuring the low sun (~22° altitude).</p>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

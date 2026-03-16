@@ -1,0 +1,7 @@
+numpy
+rasterio
+shapely
+geopandas
+pysolar
+scipy
+numba

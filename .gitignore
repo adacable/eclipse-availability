@@ -1,0 +1,5 @@
+.DS_Store
+precompute/.venv/
+precompute/*.tif
+precompute/__pycache__/
+data/srtm/
