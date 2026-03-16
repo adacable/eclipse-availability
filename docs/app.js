@@ -1,11 +1,6 @@
-// Paths relative to web/ — adjust if serving from repo root
 const DATA = {
-  // NASA / Xavier Jubier eclipse path polygons
-  // Expected properties: "type" = "umbra" | "penumbra" (or adapt STYLE_FOR below)
-  eclipsePath:    "../data/eclipse_path_2026.geojson",
-
-  // Output of precompute/compute_visibility.py
-  terrainBlocked: "../data/terrain_blocked_clipped.geojson",
+  eclipsePath:    "./data/eclipse_path_2026.geojson",
+  terrainBlocked: "./data/terrain_blocked_clipped.geojson",
 };
 
 // ── Map init ─────────────────────────────────────────────────────────────────

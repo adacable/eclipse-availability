@@ -3,3 +3,5 @@ precompute/.venv/
 precompute/*.tif
 precompute/__pycache__/
 data/srtm/
+data/terrain_blocked.geojson
+data/terrain_clear.geojson
